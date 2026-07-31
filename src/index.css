@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+::selection {
+  background: #0A5BFF;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F9FF;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #0A5BFF, #071B33);
+  border-radius: 8px;
+}
+
+:focus-visible {
+  outline: 2px solid #0A5BFF;
+  outline-offset: 3px;
+}
+
+@layer components {
+  .container-px {
+    @apply px-6 md:px-10 lg:px-16 xl:px-24;
+  }
+
+  .glass {
+    @apply bg-white/10 backdrop-blur-xl border border-white/15;
+  }
+
+  .glass-light {
+    @apply bg-white/70 backdrop-blur-xl border border-white/60;
+  }
+
+  .eyebrow {
+    @apply inline-flex items-center gap-2 text-xs md:text-sm font-semibold tracking-[0.18em] uppercase text-royal-500;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-royal-500 to-sky
+      px-7 py-3.5 font-heading font-semibold text-white shadow-glow transition-all duration-300
+      hover:shadow-[0_0_70px_-8px_rgba(10,91,255,0.6)] hover:-translate-y-0.5 active:translate-y-0;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-navy-900/15
+      bg-white/60 px-7 py-3.5 font-heading font-semibold text-navy-900 backdrop-blur-sm transition-all duration-300
+      hover:border-royal-500 hover:text-royal-500 hover:-translate-y-0.5;
+  }
+
+  .btn-ghost-light {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl border-2 border-white/25
+      bg-white/5 px-7 py-3.5 font-heading font-semibold text-white backdrop-blur-sm transition-all duration-300
+      hover:border-white hover:bg-white hover:text-navy-900 hover:-translate-y-0.5;
+  }
+
+  .section-pad {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+}
+
+.bg-grid {
+  background-image:
+    linear-gradient(rgba(255,255,255,0.06) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.06) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.bg-grid-light {
+  background-image:
+    linear-gradient(rgba(7,27,51,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(7,27,51,0.05) 1px, transparent 1px);
+  background-size: 44px 44px;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #0A5BFF, #3B82F6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}

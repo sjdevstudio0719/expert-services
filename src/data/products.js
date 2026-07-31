@@ -1,0 +1,78 @@
+const products = [
+  {
+    id: 'bullet-camera',
+    category: 'Cameras',
+    name: 'Bullet Camera',
+    tagline: 'Long-range outdoor coverage',
+    specs: ['5MP / 8MP sensor options', 'Up to 40m IR night vision', 'IP67 weatherproof body', 'Wide-angle fixed lens'],
+    features: ['Outdoor perimeter coverage', 'Vandal-resistant housing', 'PoE or wired power'],
+    image: 'outdoor bullet security camera mounted on wall',
+  },
+  {
+    id: 'dome-camera',
+    category: 'Cameras',
+    name: 'Dome Camera',
+    tagline: 'Discreet indoor & ceiling coverage',
+    specs: ['5MP / 8MP sensor options', 'Up to 30m IR night vision', 'Vandal-proof dome shell', 'Anti-tamper alerts'],
+    features: ['Reception & retail interiors', 'Ceiling-mount discreet design', '360° adjustable lens'],
+    image: 'ceiling mounted dome security camera in office corridor',
+  },
+  {
+    id: 'ptz-camera',
+    category: 'Cameras',
+    name: 'PTZ Camera',
+    tagline: 'Pan-tilt-zoom active tracking',
+    specs: ['Up to 25x optical zoom', 'Auto-tracking presets', '360° continuous rotation', 'Long-range IR up to 150m'],
+    features: ['Large open areas', 'Auto-follow motion tracking', 'Control-room joystick support'],
+    image: 'ptz security camera on industrial rooftop pole',
+  },
+  {
+    id: 'wireless-camera',
+    category: 'Cameras',
+    name: 'Wireless Camera',
+    tagline: 'Flexible Wi-Fi installation',
+    specs: ['1080p / 4MP resolution', 'Battery or solar powered', 'Two-way audio', 'App-based live view'],
+    features: ['Homes without cable runs', 'Temporary site monitoring', 'Quick self-installation'],
+    image: 'small wireless security camera on modern home wall',
+  },
+  {
+    id: 'nvr',
+    category: 'Recorders',
+    name: 'NVR',
+    tagline: 'Network video recording for IP systems',
+    specs: ['4 / 8 / 16 / 32 channel options', 'Up to 12MP per-channel recording', 'RAID-ready storage bays', 'Remote app access'],
+    features: ['IP camera networks', 'Multi-site cloud backup', 'H.265+ compression'],
+    image: 'network video recorder nvr unit in server rack',
+  },
+  {
+    id: 'dvr',
+    category: 'Recorders',
+    name: 'DVR',
+    tagline: 'Reliable recording for analog & HD systems',
+    specs: ['4 / 8 / 16 channel options', 'Up to 5MP-Lite recording', 'Hybrid analog/IP support', 'Mobile playback app'],
+    features: ['Upgrading legacy analog sites', 'Budget-friendly deployments', 'Simple local playback'],
+    image: 'digital video recorder dvr device with hard drive',
+  },
+  {
+    id: 'biometric-device',
+    category: 'Access Control',
+    name: 'Biometric Device',
+    tagline: 'Fingerprint & face recognition terminal',
+    specs: ['Fingerprint + face recognition', '3,000+ user capacity', 'TCP/IP & Wi-Fi connectivity', 'Built-in attendance software'],
+    features: ['Staff attendance tracking', 'Restricted-area access control', 'Touchless entry logging'],
+    image: 'biometric attendance device mounted at office wall',
+  },
+  {
+    id: 'networking',
+    category: 'Networking',
+    name: 'Networking Hardware',
+    tagline: 'PoE switches, routers & structured cabling',
+    specs: ['8 / 16 / 24 port PoE switches', 'Managed VLAN support', 'Cat6/Cat6A cabling', 'Rack-mount patch panels'],
+    features: ['Powering large camera networks', 'Multi-floor office connectivity', 'Redundant uplink design'],
+    image: 'poe network switch with ethernet cables in rack',
+  },
+];
+
+export const categories = ['All', 'Cameras', 'Recorders', 'Access Control', 'Networking'];
+
+export default products;
