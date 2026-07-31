@@ -10,11 +10,11 @@ import {
 } from 'lucide-react';
 import homeSecurity from "../assets/home-security.jpg";
 import officeSecurity from "../assets/corporate-area.jpg";
-import IndustrialSecurity from "../assets/industry-area.jpg";
+import IndustrialSecurity from "../assets/industry.jpg";
 import BiometricAttendance from "../assets/Biometric-Attendance.jpg"
 import VideoDoorPhone from "../assets/video-cctv.jpg"
 import AnnualMaintenanceContract from "../assets/Annual-Maintenance.jpg"
-import NetworkingCabling from "../assets/Access-Control-installation.jpg"
+import NetworkingCabling from "../assets/Access-Control-Installation.jpg"
 // import commercial from "../assets/Looking for top-notch security and surveillance services_ Look no further! Veterans Security & Surveillance, LLC is here to provide you with the best solutions for your residential or commercial property_ Our depen.jpg"
 const services = [
   {
