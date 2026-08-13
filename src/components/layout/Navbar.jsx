@@ -94,7 +94,7 @@ export default function Navbar() {
     <Phone className="h-4 w-4" />
   </span>
 
-  +91 89001 11190
+  +91 00000 00000
 </a>
             <Link to="/contact" className="btn-primary !px-5 !py-2.5 text-sm">
               Free Inspection
