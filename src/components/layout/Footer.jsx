@@ -104,7 +104,7 @@ export default function Footer() {
               </li>
               <li className="flex gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-sky" />
-                +91  89001 11190
+                +91  00000 00000
               </li>
               <li className="flex gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-sky" />
