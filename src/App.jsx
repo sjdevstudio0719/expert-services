@@ -11,6 +11,7 @@ import Loader from './components/ui/Loader';
 import FloatingWhatsApp from './components/ui/FloatingWhatsApp';
 import BackToTop from './components/ui/BackToTop';
 import ScrollProgress from './components/ui/ScrollProgress';
+import AgencyBar from './components/ui/Agencybar';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -48,6 +49,7 @@ export default function App() {
       <Loader show={loading} />
       <ScrollProgress />
       <ScrollToTop />
+      <AgencyBar/>
       <Navbar />
       <main>
         <AnimatePresence mode="wait">
