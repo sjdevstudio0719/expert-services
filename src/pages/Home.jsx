@@ -62,16 +62,16 @@ export default function Home() {
           <div>
      {/* ========== SJ DEV STUDIO CREDIT ========== */}
               <motion.a
-                href="YOUR_PORTFOLIO_LINK"
+                href="https://sj-dev-studio.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.6 }}
-                className="group mb-4 flex w-fit items-center gap-2 text-xs sm:text-sm"
+                className="group mb-5 flex w-fit items-center gap-2 text-xs sm:text-sm"
               >
                 <span className="text-white/45">
-                  Demo website designed & developed by
+                  Expert Services website designed & developed by
                 </span>
 
                 <span className="font-semibold text-royal-400 transition-colors group-hover:text-sky">
