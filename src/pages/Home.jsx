@@ -60,6 +60,24 @@ export default function Home() {
 
         <div className="container-px relative mx-auto grid max-w-7xl grid-cols-1 items-center gap-16 py-20 lg:grid-cols-2">
           <div>
+     {/* ========== SJ DEV STUDIO CREDIT ========== */}
+              <motion.a
+                href="YOUR_PORTFOLIO_LINK"
+                target="_blank"
+                rel="noopener noreferrer"
+                initial={{ opacity: 0, y: 16 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.6 }}
+                className="group mb-4 flex w-fit items-center gap-2 text-xs sm:text-sm"
+              >
+                <span className="text-white/45">
+                  Demo website designed & developed by
+                </span>
+
+                <span className="font-semibold text-royal-400 transition-colors group-hover:text-sky">
+                  SJ DEV STUDIO ↗
+                </span>
+              </motion.a>
             <motion.span
               initial={{ opacity: 0, y: 16 }}
               animate={{ opacity: 1, y: 0 }}
